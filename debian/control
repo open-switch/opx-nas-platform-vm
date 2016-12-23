@@ -1,0 +1,12 @@
+Source: opx-nas-platform-vm
+Section: net
+Priority: optional
+Maintainer: Dell <support@dell.com>
+Build-Depends: debhelper (>= 9),dh-autoreconf,libopx-common-dev,opx-ndi-api-dev
+Standards-Version: 1.0.1
+
+Package: libopx-nas-platform-vm1
+Provides: libopx-nas-platform1
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},libopx-common-dev,opx-ndi-api-dev
+Description: OPX NAS platform for VM - shared library
