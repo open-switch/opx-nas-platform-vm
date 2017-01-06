@@ -1,13 +1,4 @@
-OPX NAS platform VM
-=====================
+# opx-nas-platform-vm
+This repository contains virtual machine (VM) platform-specific files and implementation for the network abstraction service (NAS). There are confiugration files in this repository that defined port mappings and so on.
 
-VM (virtual machine) platform specific utilities for the OPX project
-
-Description
------------
-
-This repo contains VM platform specific files and implementation for
-the Network abstraction service. There are confiugration files in this
-repo that defined port mapping etc.
-
-(c) Dell 2016
+(c) 2017 Dell
