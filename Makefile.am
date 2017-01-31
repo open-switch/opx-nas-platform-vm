@@ -1,6 +1,4 @@
 ACLOCAL_AMFLAGS=-I m4
-cfgdir = $(sysconfdir)/opx
-cfg_SCRIPTS = cfg/*.xml
 
 lib_LTLIBRARIES=libopx_nas_platform.la
 
