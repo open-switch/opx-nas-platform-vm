@@ -10,5 +10,5 @@ Conflicts: libopx-nas-platform1
 Provides: libopx-nas-platform1
 Replaces: libopx-nas-platform1
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends},libopx-common-dev,opx-ndi-api-dev
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: OPX NAS platform for VM - shared library
